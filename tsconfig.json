@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+
+        "target": "ESNext",
+        "removeComments": true,
+        "watch": true,
+        "outFile": "main.js"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "compileOnSave": true
+}

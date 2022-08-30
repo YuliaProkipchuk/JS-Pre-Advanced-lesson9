@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.block{
+    display: flex;
+    height: 700px;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    font-weight: 700;
+    border-bottom: 3px solid #f2f2f2;
+    border-top: 3px solid #f2f2f2;
+}
+input:focus {
+    outline: 1px solid #b7d4f4;
+    border: 1px solid #b7d4f4;
+}
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    width: 400px;
+    height: 30px;
+    padding-left: 8px;
+}
+.btn{
+    background-color: white;
+    border-color: #90c8a2;
+    border-style: solid;
+    outline-color: #90c8a2;
+    margin-top: 10px;
+    color: #90c8a2;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.btn:hover{
+    color: white;
+    background-color: #1e9541;
+    cursor: pointer;
+}
+label{
+   margin: 10px 0;
+}
+.names{
+    margin: 10px 0px;
+    width: 115px;
+}
+.names:nth-of-type(1){
+    margin-left: 0;
+    margin-right: 0;
+    width: 10px;
+}
+
+.names:nth-of-type(3){
+    margin-left: -4px;
+    margin-right: 11px;
+}
+
+.names:nth-of-type(5){
+    text-align: end;
+}
+.names:nth-of-type(6){
+    text-align: center;
+}
+.edit-btn{
+    background-color: #ffbd22;
+    width: 60px;
+    height:36px;
+    border-style: none;
+    border-radius: 3px;
+}
+.delete-btn{
+    height: 36px;
+    width: 80px;
+    color: white;
+    background-color: #ea4846;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.hide{
+    display: none;
+}
+span{
+    margin: 0 10px;
+}
+.info{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    border-bottom: 3px solid #f2f2f2;
+    align-items: center;
+    height: 60px;
+}
+
+.field:nth-of-type(1){
+    width: 8px;
+}
+.field:nth-of-type(2){
+    width: 108px;
+}
+.field:nth-of-type(3){
+    width: 125px;
+}
+.field:nth-of-type(4){
+    width: 198px;
+}
